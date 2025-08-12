@@ -29,5 +29,54 @@ li:first-child {
 }
 
 input:focus {
- background-color: rgb(174, 202, 255);
+background-color: rgb(174, 202, 255);
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(48, 87, 53);
+}
+
+div:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+input:invalid {
+  background-color: rgb(117, 35, 35);
+}
+
+li:last-child {
+  color: rgb(62, 62, 109);
+}
+
+a:link {
+  color: blue;
+}
+
+main :not(h1) {
+  color: rgb(29, 156, 84);
+}
+
+li:nth-child(3n) {
+  color: rgb(174, 179, 34);
+}
+
+ul :only-child {
+  color: rgb(255, 153, 0);
+}
+
+input:read-only {
+  color: rgb(29, 156, 84);
+}
+
+input {
+  width: 100%;
+}
+
+input:read-write {
+  color: rgb(35, 41, 91);
+}
+input {
+  width: 100%;
 }
