@@ -1,0 +1,33 @@
+a:any-link {
+  color: rgb(122, 26, 26);
+  font-weight: bold;
+  font-style: italic;
+}
+
+input:checked + label {
+    color: brown;
+    font-style: oblique;
+}
+
+input:default + label {
+  color: green;
+  font-style: unset;
+}
+
+button:disabled {
+  background-color: lightgray;
+  color: rgb(203, 36, 36);
+}
+
+button:enabled {
+  background-color: rgb(35, 41, 91);
+  color: white;
+}
+li:first-child {
+  color: crimson;
+  font-style: italic;
+}
+
+input:focus {
+ background-color: rgb(174, 202, 255);
+}
